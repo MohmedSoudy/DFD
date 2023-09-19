@@ -1,0 +1,14 @@
+Package: DFD
+Type: Package
+Title: Extract Drugs from Differential Expression Data
+Version: 0.1.0
+Author: Mohamed Soudy [aut, cre]
+Maintainer: Mohamed Soudy <MohmedSoudy2009@gmail.com>
+Description: Extract Drugs from Differential Expression Data using the Connectivity Map (CMAP) Approach and Library of Integrated Network-Based Cellular Signatures (LINCS) Database.  
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: stringr, gprofiler2, signatureSearch, signatureSearchData
+URL: https://github.com/MohmedSoudy/DFD
+BugReports: https://github.com/MohmedSoudy/DFD/issues
+RoxygenNote: 7.2.3
