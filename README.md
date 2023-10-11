@@ -48,7 +48,17 @@ perts <- run_pipeline(degs_path = "https://raw.githubusercontent.com/MohmedSoudy
 
 - [Sample Input](https://raw.githubusercontent.com/MohmedSoudy/datasharing/master/differential-expression.csv)
 - [Sample Output](https://raw.githubusercontent.com/MohmedSoudy/datasharing/master/Predicted_drugs.csv)
-  
+
+# Output description 
+
+column     | annottaion
+-----------|-----------
+pert       | name of the drug
+cell       | name of the cell-line
+type       | perturbation type
+trend      | up or down when reference signature is positively or negatively connected with the query signature, respectively
+WTCS       | weighted Connectivity Score
+
 # Contribution Guidelines
 
 For bugs and suggestions, the most effective way is by raising an issue on the github issue tracker. Github allows you to classify your issues so that we know if it is a bug report, feature request or feedback to the authors.
