@@ -13,7 +13,7 @@ if (!require("BiocManager", quietly = TRUE))
 
 BiocManager::install("signatureSearch")
 BiocManager::install("signatureSearchData")
-install.packages("DFD ")
+install.packages("DFD")
 ```
 # Description
 
