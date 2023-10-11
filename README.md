@@ -58,6 +58,12 @@ cell       | name of the cell-line
 type       | perturbation type
 trend      | up or down when reference signature is positively or negatively connected with the query signature, respectively
 WTCS       | weighted Connectivity Score
+WTCS_Pval  | nominal p-value of WTCS
+WTCS_FDR   | false discovery rate of WTCS_Pval
+NCS        | normalized connectivity score
+NCSct      | NCS summarized across cell types
+N_upset or N_downset | number of genes in the query up or down
+t_gn_sym   | gene symbols of the corresponding drug targets
 
 # Contribution Guidelines
 
