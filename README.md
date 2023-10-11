@@ -17,7 +17,7 @@ install.packages("DFD")
 ```
 # Description
 
-Get Drug information from given differentail expression profile.
+Get Drug information from given differential expression profile.
 The package search for the bioactive compounds from reference databases such as LINCS containing the genome-wide GESs from tens of thousands of drug and genetic perturbations [Subramanian et al. 2017](https://www.cell.com/cell/fulltext/S0092-8674(17)31309-0). 
 
 # Pipeline
